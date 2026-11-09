@@ -1,0 +1,417 @@
+[
+  {
+    "id": 1,
+    "question": "What does Section 7 of the RTI Act say about the time limit for a reply?",
+    "type": "exact_term",
+    "source": "RTIAct.pdf",
+    "must_contain": [
+      "within thirty days of the receipt of the request"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "What penalty per day does Section 20 of the RTI Act impose?",
+    "type": "exact_term",
+    "source": "RTIAct.pdf",
+    "must_contain": [
+      "two hundred and fifty rupees each day"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Within how many days must a PIO notify a third party under Section 11?",
+    "type": "exact_term",
+    "source": "RTIAct.pdf",
+    "must_contain": [
+      "within five days from the receipt of the request"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "What is the time limit for the first appeal under Section 19?",
+    "type": "exact_term",
+    "source": "RTIAct.pdf",
+    "must_contain": [
+      "within thirty days from the expiry of such period"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "What is the term of office of the Chief Information Commissioner?",
+    "type": "exact_term",
+    "source": "RTIAct.pdf",
+    "must_contain": [
+      "hold office for a term of five years"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "What is BCNF?",
+    "type": "exact_term",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "boyce-codd normal form"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "What does 2NF say about partial dependency?",
+    "type": "exact_term",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "there should not be any partial dependency"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "What is the db-pointer in the shadow-copy scheme?",
+    "type": "exact_term",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "a pointer called db-pointer is maintained on the disk"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "What is a dense index?",
+    "type": "exact_term",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "contains an index record for every search key value in the data file"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Which database is given as an example of an AP database in the CAP theorem?",
+    "type": "exact_term",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "apache cassandra is an example of an ap database"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "What is the Ostrich algorithm?",
+    "type": "exact_term",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "ostrich algorithm"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "What is the odd-even rule in the dining philosophers problem?",
+    "type": "exact_term",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "odd-even rule"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "What is a PCB and what does it store?",
+    "type": "exact_term",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "stores info/attributes of a process"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "What is the TLB used for in paging?",
+    "type": "exact_term",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "a hardware support to speed-up paging process"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "What accuracy did VGGNet achieve in the lung cancer study?",
+    "type": "exact_term",
+    "source": "Deep_Learning_Based_Classification_of_Lung_Cancer_Images_A_Comparative_Performance_Evaluation.pdf",
+    "must_contain": [
+      "vggnet achieved an accuracy of 99%"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "How many false negatives did VGGNet produce?",
+    "type": "exact_term",
+    "source": "Deep_Learning_Based_Classification_of_Lung_Cancer_Images_A_Comparative_Performance_Evaluation.pdf",
+    "must_contain": [
+      "false negatives: 3"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "What can I do if a government office never replies to my information request?",
+    "type": "paraphrase",
+    "source": "RTIAct.pdf",
+    "must_contain": [
+      "does not receive a decision within the time specified"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Is information about a person's life or freedom given faster than normal requests?",
+    "type": "paraphrase",
+    "source": "RTIAct.pdf",
+    "must_contain": [
+      "within forty-eight hours of the receipt of the request"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Do I have to explain why I want the information?",
+    "type": "paraphrase",
+    "source": "RTIAct.pdf",
+    "must_contain": [
+      "shall not be required to give any reason for requesting the information"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Can very old records be disclosed even if they are normally protected?",
+    "type": "paraphrase",
+    "source": "RTIAct.pdf",
+    "must_contain": [
+      "twenty years before the date on which any request is made"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "Why does a database need indexes?",
+    "type": "paraphrase",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "minimising the number of disk accesses required when a query is processed"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "What problem occurs when one change must be repeated in many rows?",
+    "type": "paraphrase",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "update of a single data value requires multiple rows"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "What separates a weak entity from a strong entity?",
+    "type": "paraphrase",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "weak entity depends on strong entity for existence"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "Which application architecture is best for web applications?",
+    "type": "paraphrase",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "t3 architecture are best for www applications"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "How is data split across servers by rows?",
+    "type": "paraphrase",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "independent chunks of data tuples are stored in different servers"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "What happens to a process whose parent has died while it is still running?",
+    "type": "paraphrase",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "orphan processes are adopted by init process"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "Why can't a user program do everything on its own and needs the kernel's help?",
+    "type": "paraphrase",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "user program can request a service from the kernel"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "Which memory allocation strategy picks the smallest free block that fits?",
+    "type": "paraphrase",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "allocate smallest hole that is big enough"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "How can low priority jobs be saved from waiting forever?",
+    "type": "paraphrase",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "ageing is the solution"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "What goes wrong with locks when the thread holding one crashes?",
+    "type": "paraphrase",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "what if thread that had acquired the lock dies"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "How did the authors deal with the imbalance between benign and malignant images?",
+    "type": "paraphrase",
+    "source": "Deep_Learning_Based_Classification_of_Lung_Cancer_Images_A_Comparative_Performance_Evaluation.pdf",
+    "must_contain": [
+      "synthetic minority oversampling (smote) during preprocessing"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "Why did the authors prefer VGGNet-12 over newer architectures?",
+    "type": "paraphrase",
+    "source": "Deep_Learning_Based_Classification_of_Lung_Cancer_Images_A_Comparative_Performance_Evaluation.pdf",
+    "must_contain": [
+      "lowers the danger of overfitting"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "Which organisations does Section 24 of the RTI Act exempt, and where are they listed?",
+    "type": "mixed",
+    "source": "RTIAct.pdf",
+    "must_contain": [
+      "intelligence and security organisations specified in the second schedule"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "What is the deadline for a second appeal under Section 19(3), and who hears it?",
+    "type": "mixed",
+    "source": "RTIAct.pdf",
+    "must_contain": [
+      "second appeal against the decision under sub-section (1) shall lie within ninety days"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "Why is MongoDB treated as a CP database for banking systems?",
+    "type": "mixed",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "in banking system availability is not as important as consistency"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "How many types of schemas does a DBMS have, and what are they?",
+    "type": "mixed",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "we have 3 types of schemas"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "In log-based recovery, how is a committed transaction redone after a crash?",
+    "type": "mixed",
+    "source": "DBMS_Full_Notes.pdf",
+    "must_contain": [
+      "new value field is used to redo t"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "What are the four necessary conditions for a deadlock?",
+    "type": "mixed",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "4 condition should hold simultaneously"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "What does the Banker algorithm check before allocating resources?",
+    "type": "mixed",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "leave the system in a safe state"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "What is thrashing and when does a system thrash?",
+    "type": "mixed",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "spends more time servicing the page faults than executing processes"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "Which kernel type keeps all functions in the kernel and what is its drawback?",
+    "type": "mixed",
+    "source": "OS_Full_Notes.pdf",
+    "must_contain": [
+      "all functions are in kernel itself"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "How many images were used in the lung cancer study and where did they come from?",
+    "type": "mixed",
+    "source": "Deep_Learning_Based_Classification_of_Lung_Cancer_Images_A_Comparative_Performance_Evaluation.pdf",
+    "must_contain": [
+      "15290 histopathological images"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "Which two models were compared in the lung cancer paper?",
+    "type": "mixed",
+    "source": "Deep_Learning_Based_Classification_of_Lung_Cancer_Images_A_Comparative_Performance_Evaluation.pdf",
+    "must_contain": [
+      "vggnet-12 and resnet50"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "What is the capital of France?",
+    "type": "unanswerable",
+    "source": null,
+    "must_contain": []
+  },
+  {
+    "id": 45,
+    "question": "What does Section 45 of the RTI Act say?",
+    "type": "unanswerable",
+    "source": null,
+    "must_contain": []
+  },
+  {
+    "id": 46,
+    "question": "What is the recommended dosage of paracetamol for adults?",
+    "type": "unanswerable",
+    "source": null,
+    "must_contain": []
+  },
+  {
+    "id": 47,
+    "question": "Who won the 2022 FIFA World Cup?",
+    "type": "unanswerable",
+    "source": null,
+    "must_contain": []
+  }
+]

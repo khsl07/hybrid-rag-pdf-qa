@@ -78,6 +78,30 @@ Where:
 
 ---
 
+## 📊 Empirical Retrieval Benchmark: FAISS vs. BM25 vs. Hybrid (RRF)
+
+To validate higher retrieval precision, the system was benchmarked over 43 test questions across exact keyword lookups, semantic paraphrases, and mixed domain inquiries:
+
+### Overall Retrieval Metrics (n = 43)
+
+| Retrieval System | Hit@1 | Hit@3 | Hit@5 | Hit@10 | MRR | nDCG@10 |
+|---|---|---|---|---|---|---|
+| **BM25 only (Lexical)** | 0.44 | 0.77 | 0.81 | 0.86 | 0.598 | 0.650 |
+| **FAISS only (Dense)** | 0.67 | **0.95** | 0.95 | **1.00** | 0.810 | **0.847** |
+| **Hybrid RRF (Fused)** | **0.72** | 0.93 | **0.98** | 0.98 | **0.810** | 0.829 |
+
+### Technical & Exact Keyword Lookups (exact_term, n = 16)
+
+| Retrieval System | Hit@1 | Hit@3 | Hit@5 | Hit@10 | MRR | nDCG@10 |
+|---|---|---|---|---|---|---|
+| **BM25 only** | 0.56 | 0.88 | 0.94 | 0.94 | 0.700 | 0.769 |
+| **FAISS only** | 0.69 | **1.00** | **1.00** | **1.00** | 0.823 | 0.863 |
+| **Hybrid RRF (Fused)** | **0.81** | 0.94 | **1.00** | **1.00** | **0.880** | **0.898** |
+
+> **Key Takeaway**: On exact keyword and domain-specific terminology queries, **Hybrid RRF delivers a +17.4% relative gain in top-1 precision (Hit@1: 0.81 vs 0.69)** and raises **MRR from 0.823 to 0.880**, demonstrating how RRF combines lexical precision with semantic depth.
+
+---
+
 ## 🚀 Key Features
 
 - **Semantic-Aware PDF Chunking**: Splits text along sentence and paragraph boundaries with sliding window overlaps while strictly preserving page-level source metadata.
